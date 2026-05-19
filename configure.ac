@@ -15,6 +15,7 @@ AC_SUBST([LIBRARY_VERSION], [2:0:0])
 m4_ifdef([AM_PROG_AR], [AM_PROG_AR])
 AC_PROG_LIBTOOL
 AM_PROG_CC_C_O
+CFLAGS="$CFLAGS -fsigned-char"
 
 AC_PATH_PROGS([DOX_PROG], [doxygen], missing)
 AM_CONDITIONAL([DOX_ENABLED], [test "x$DOX_PROG" != "xmissing"])
