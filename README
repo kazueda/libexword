@@ -13,6 +13,7 @@ Features:
 	* delete files
 	* install/remove add-on dictionaries
 
+"x86-64 and ARM CPU's are supported in this fork."
 
 Commands
 ==========================
